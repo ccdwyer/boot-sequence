@@ -1,5 +1,9 @@
 # Boot Sequence
 
+![Boot Sequence demo](media/demo.gif)
+
+[Watch the MP4](https://github.com/ccdwyer/claude-mods/raw/main/media/boot-sequence.mp4) · [Screenshot](media/02-checks.png) · [Screenshot](media/03-summary.png)
+
 A BIOS-style boot screen for Claude Code. When a session starts, a gradient `CLAUDE CODE` wordmark sweeps in under a scanline, a memory test counts up, and a POST log types itself out above the prompt. Every line is a real check of your machine, and each one flips from a spinner to `[  OK  ]`, `[ WARN ]` or `[ FAIL ]`:
 
 | Check | What it reports | Warns when |
