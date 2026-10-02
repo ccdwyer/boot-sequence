@@ -1,0 +1,30 @@
+{
+  "name": "boot-sequence",
+  "version": "0.1.0",
+  "description": "A BIOS-style boot screen when a session starts: real checks of git, toolchains, devices, ports, context and disk, typed out and flipped to OK, WARN or FAIL",
+  "userConfig": {
+    "animate": {
+      "type": "boolean",
+      "title": "Animate the boot screen",
+      "description": "Off shows the finished boot log at once, with no typewriter or scanline effects",
+      "default": true
+    },
+    "collapseSeconds": {
+      "type": "number",
+      "title": "Collapse after (seconds)",
+      "description": "How long the finished boot log stays open above the prompt before it folds into a one-line summary",
+      "default": 8
+    }
+  },
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Chris Dwyer",
+    "url": "https://github.com/ccdwyer"
+  },
+  "repository": "https://github.com/ccdwyer/boot-sequence",
+  "license": "MIT",
+  "homepage": "https://github.com/ccdwyer/boot-sequence",
+  "supportUrl": "https://github.com/ccdwyer/boot-sequence/issues",
+  "documentationUrl": "https://github.com/ccdwyer/boot-sequence#readme",
+  "privacyPolicyUrl": "https://github.com/ccdwyer/boot-sequence/blob/main/PRIVACY.md"
+}
