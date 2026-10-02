@@ -1,6 +1,6 @@
 {
   "name": "boot-sequence",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A BIOS-style boot screen when a session starts: real checks of git, toolchains, devices, ports, context and disk, typed out and flipped to OK, WARN or FAIL",
   "userConfig": {
     "animate": {
